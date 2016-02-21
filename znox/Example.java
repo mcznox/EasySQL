@@ -58,8 +58,8 @@ public class Example extends SQL {
 
         // Método de utilização rápido para atualizar vários valores com a mesma linha
         sql
-                .updateValue("table", new String[] { "mortes", "1", "jogador", "zNoX_" });
-                
+                .updateValue("table", new String[] { "mortes", "1", "jogador", "zNoX_" })
+                .updateValue("table", new String[] { "matou", "3", "jogador", "zNoX_"});
     }
 
 }
