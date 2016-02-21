@@ -47,7 +47,7 @@ public class Example extends SQL {
             // return 'mortes';
         } else if (i == 2) {
             // Atualiza a tabela de acordo com a ordem da Linha
-            updateValue("table", new String[] {"mortes", "1", "jogador", "zNoX_"});
+            updateValue("table", new String[] { "mortes", "1", "jogador", "zNoX_" });
 
             // Irá criar a seguinte linha
             // update set mortes='1' where jogador='zNoX_';
