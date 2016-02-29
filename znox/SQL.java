@@ -10,7 +10,7 @@ import java.util.List;
  * @author zNoX_
  * @version 1.1.3
  */
-public abstract class SQL implements Cloneable {
+public class SQL implements Cloneable {
 
     // Variáveis para conexão
     protected String host, port, user, pass, db;
