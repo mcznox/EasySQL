@@ -8,7 +8,7 @@ import java.util.List;
  * <h1>Easy SQL</h1>
  * <h3>Fácil e prático de usar!</h3>
  * @author zNoX_
- * @version 1.1.3
+ * @version 1.1.6
  */
 public class SQL implements Cloneable {
 
