@@ -213,11 +213,6 @@ public class SQL implements Cloneable {
         String description;
 
         // Construção...
-        SQLEnum(String description) {
-            this.description = description;
-        }
-
-        // Construção...
         SQLEnum() {}
 
         // Retorna a descrição
