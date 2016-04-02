@@ -15,7 +15,7 @@ public class Example extends SQL {
 
     public void example() throws Exception {
         // Variável desprezível
-        Integer i = null;
+        Integer i = 0;
 
         // Abrir uma conexão
         openConnection();
