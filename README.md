@@ -1,4 +1,4 @@
-# EaySQL
+# EasySQL
 ## Introdução
 O projeto Easy SQL é uma API desenvolvida para todos que não possuiem uma habilidade desenvolvida nesta área. Contendo métodos de fácil utilização esta API tornasse muito útil.
 
