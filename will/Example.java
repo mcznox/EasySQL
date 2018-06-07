@@ -1,4 +1,4 @@
-package znox;
+package will;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,14 +40,14 @@ public class Example extends SQL {
             // insert into table (valor, valor2, valor3) values ('valor01', 'valor02', 'valor03');
         } else if (i == 1) {
             // Retorna o valor específicado na última variável
-            getValue("table", new String[] { "jogador", "zNoX_" }, "mortes");
+            getValue("table", new String[] { "usuario", "Will" }, "visualizacoes");
 
             // Irá criar a seguinte linha
             // select * from table where jogador='zNoX_';
             // return 'mortes';
         } else if (i == 2) {
             // Atualiza a tabela de acordo com a ordem da Linha
-            updateValue("table", new String[] { "mortes", "1", "jogador", "zNoX_" });
+            updateValue("table", new String[] { "visualizacoes", "4", "usuario", "Will" });
 
             // Irá criar a seguinte linha
             // update set mortes='1' where jogador='zNoX_';
@@ -58,8 +58,8 @@ public class Example extends SQL {
 
         // Método de utilização rápido para atualizar vários valores com a mesma linha
         sql
-                .updateValue("table", new String[] { "mortes", "1", "jogador", "zNoX_" })
-                .updateValue("table", new String[] { "matou", "3", "jogador", "zNoX_"});
+                .updateValue("table", new String[] { "visualizacoes", "7", "usuario", "Will" })
+                .updateValue("table", new String[] { "compras", "2", "usuario", "Will"});
     }
 
 }
