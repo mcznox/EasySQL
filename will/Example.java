@@ -43,14 +43,14 @@ public class Example extends SQL {
             getValue("table", new String[] { "usuario", "Will" }, "visualizacoes");
 
             // Irá criar a seguinte linha
-            // select * from table where jogador='zNoX_';
-            // return 'mortes';
+            // select * from table where usuario='Will';
+            // return 'visualizacoes';
         } else if (i == 2) {
             // Atualiza a tabela de acordo com a ordem da Linha
             updateValue("table", new String[] { "visualizacoes", "4", "usuario", "Will" });
 
             // Irá criar a seguinte linha
-            // update set mortes='1' where jogador='zNoX_';
+            // update set visualizacoes='4' where usuario='Will';
         }
 
         // Para clonar a classe SQL com todas as propriedades e variáveis já determinadas quando for extendida para uma classe
