@@ -35,7 +35,7 @@ public class MyClass {
 ```
 
 ## Contato
-Para ter um maior contato com minha pessoa, favor acesse [este site] (http://www.vize.esy.es).
+Para ter um maior contato com minha pessoa, favor acesse [este site] (http://www.vize.com.br).
 
 ## Empresa
 
