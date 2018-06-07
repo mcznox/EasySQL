@@ -1,4 +1,4 @@
-package znox;
+package will;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * <h1>Easy SQL</h1>
  * <h3>Fácil e prático de usar!</h3>
- * @author zNoX_
+ * @author Wil Macedo
  * @version 1.1.6
  */
 public class SQL implements Cloneable {
